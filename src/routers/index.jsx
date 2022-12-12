@@ -8,10 +8,10 @@ import Register from '../layouts/Register';
 function Routers() {
   return (
     <Routes>
-      <Route exact path='/' element={<LandingPage />} />
-      <Route exact path='/home' element={<Home />} />
-      <Route exact path='/login' element={<Login />} />
-      <Route exact path='/register' element={<Register />} />
+      <Route exact path="/" element={<LandingPage />} />
+      <Route exact path="/home" element={<Home />} />
+      <Route exact path="/login" element={<Login />} />
+      <Route exact path="/register" element={<Register />} />
     </Routes>
   );
 }
